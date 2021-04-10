@@ -1,0 +1,68 @@
+body{
+background: blue;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;    
+}
+
+#contact-container{
+    width: 1200px;
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 10px;
+    display: flex;
+    background:white;
+}
+.contact-info{
+    background-color: red;
+    border-radius: 15px;
+    flex: 0 1 48%;
+    padding: 48px;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    
+}
+h4{
+        font-size: 2rem;
+        font-weight: 500;
+        margin: 0;
+    }
+p{
+    font-size: 1.2rem;
+    color: rgba(255,255 255,.7);
+    font-weight: 300;
+}
+    .icone-text{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+    }
+    .social-midea{
+        display: flex;
+        width: 50%;
+        justify-content: space-between;
+    }
+    .social-midea .icone-circle{
+        flex: 0 1 48px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 48px;
+        border-radius: 58%;
+     
+    }
+    .social-midea .icone-circle .fa{
+        font-size: 25px;
+    }
+    .fa{
+        flex: 0 0 28px;
+        font-size: 2.2rem;
+        margin-right: 2rem;
+        }
+     .icone-text span {
+         font-size: 1.3rem;
+         font-weight: 300;
+     }   
