@@ -10,7 +10,7 @@ function App() {
   return (
 
     
-    <div className=".App-logo " style={{ backgroundImage: `url(${image}` }}>
+    <div className="App-logo " style={{ backgroundImage: `url(${image}` }}>
       <div className="App" >
 
         <>
@@ -18,8 +18,8 @@ function App() {
             <Navbar.Brand href="#home">Navbar</Navbar.Brand>
             <Nav className="mr-auto">
               <Nav.Link href="#home">Home</Nav.Link>
-              <Nav.Link href="#features">Features</Nav.Link>
-              <Nav.Link href="#pricing">Pricing</Nav.Link>
+              <Nav.Link href="#features">Aboute</Nav.Link>
+              <Nav.Link href="#pricing">Contact</Nav.Link>
             </Nav>
             <Form inline>
               <FormControl type="text" placeholder="Search" className="mr-sm-2" />
@@ -37,6 +37,9 @@ function App() {
             <div className="icon-text">
               <FontAwesomeIcon icon={faEnvelope} /><span>najem.ng@gmail.com</span>
             </div>
+
+            
+            
 
            </div>
           <Form>
@@ -82,7 +85,7 @@ function App() {
             </Form.Group>
 
 
-            <Button variant="primary" type="submit">
+            <Button variant="primary" type="submit" style={{ background: "rgb(194, 17, 17)" }}>
               Submit
         </Button>
           </Form></div></div></div>

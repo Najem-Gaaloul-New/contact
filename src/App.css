@@ -1,11 +1,18 @@
 .App {
+  position: relative;
+	height: 100vh;
+	width: 100%;
   text-align: left;
-  padding-top:  9%;;
-  padding-left: 22%;
+  padding-top:  7%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .App-logo {
-  background-size: 10% 
+  height: 100%;
+  margin: 0;
+  background-size: 100%
 }
 
 
@@ -30,31 +37,32 @@
   background-size: 100% 
 }
 #contact-container{
-    width: 800px;
-    border-radius: 15px;
-    overflow: hidden;
-    padding: 10px;
-    display: flex;
-    backdrop-filter: grayscale(0.5) opacity(1)
+  position: relative;
+  width: 800px;
+  border-radius: 15px;
+  overflow: hidden;
+  padding: 10px;
+  display: flex;
+  backdrop-filter: grayscale(0.5) opacity(1)
 }
 .contact-info{
-    background-image: linear-gradient(to right top, #4400ff, #3a00d6, #3000af, #26018a, #1c0166);
-    margin-right: 30px;
-    border-radius: 15px;
-    flex: 0 1 30%;
-    padding: 30px;
-    color:white;
-    display: flex;
-    flex-direction: column;
+  background-image: linear-gradient(to right top, #4400ff, #3a00d6, #3000af, #26018a, #1c0166);
+  margin-right: 30px;
+  border-radius: 15px;
+  flex: 0 1 30%;
+  padding: 30px;
+  color:white;
+  display: flex;
+  flex-direction: column;
     
 }
 .contact-info h4{
-        font-size: 2rem;
-        font-weight: 500;
-        margin: 0;
-        color: rgb(226, 238, 248);
-        padding-bottom: 60px;
- }
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 0;
+  color: rgb(226, 238, 248);
+  padding-bottom: 60px;
+}
 .contact-info p{
   color: antiquewhite;
   justify-content: flex-start;
@@ -63,18 +71,10 @@
   
 }
 .icon-text{
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-      
-
-    }
-.social-midea{
-        display: flex;
-        width: 50%;
-        justify-content: space-between;
-    }
-    
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
 span{
   padding-left: 10px;
 }
